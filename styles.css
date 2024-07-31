@@ -46,7 +46,7 @@ nav {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #bc6c25ff;
+  background-color: #BC6C25;
   color: #fefae0ff;
 }
 
@@ -62,7 +62,7 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background-color: #dda15eff;
+  background-color: #bc6c25ff;
   color: #283618ff;
   padding: 15px 30px;
   text-decoration: none;
@@ -71,7 +71,7 @@ nav {
 }
 
 .cta-button:hover {
-  background-color: #bc6c25ff;
+  background-color: #dda15eff;
 }
 
 /* Characteristics Section */
@@ -400,4 +400,249 @@ footer {
     max-width: 100%;
     margin-bottom: 40px;
   }
+}
+
+/* About Hero Section */
+.about-hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #bc6c25ff;
+  color: #fefae0ff;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-hero p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* About Stats Section */
+.about-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #fefae0ff;
+}
+
+/* About Best Section */
+.about-best {
+  text-align: center;
+  padding: 50px;
+  background-color: #606c38ff;
+  color: #fefae0ff;
+}
+
+.about-best h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about-best-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.about-best-item {
+  text-align: center;
+}
+
+.about-best-item img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.about-best-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-best-item p {
+  font-size: 18px;
+}
+
+/* About Team Section */
+.about-team {
+  text-align: center;
+  padding: 50px;
+  background-color: #fefae0ff;
+}
+
+.about-team h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #283618ff;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  color: #606c38ff;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 18px;
+  color: #283618ff;
+}
+
+/* About Solutions Section */
+.about-solutions {
+  text-align: center;
+  padding: 50px;
+  background-color: #dda15eff;
+  color: #283618ff;
+}
+
+.about-solutions h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-solutions p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.solution-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.solution-links a {
+  color: #283618ff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.trusted-partners h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.partner-logos img {
+  height: 50px;
+}
+
+/* Contact CTA Section */
+.contact-cta {
+  text-align: center;
+  padding: 50px;
+  background-color: #606c38ff;
+  color: #fefae0ff;
+}
+
+.contact-cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Work Hero Section */
+.work-hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #bc6c25ff;
+  color: #fefae0ff;
+}
+
+.work-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.work-hero p {
+  font-size: 24px;
+}
+
+/* Work Grid Section */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 50px;
+  background-color: #fefae0ff;
+}
+
+.work-item {
+  text-align: center;
+}
+
+.work-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.work-item h3 {
+  font-size: 24px;
+  color: #606c38ff;
+  margin-bottom: 10px;
+}
+
+.work-item p {
+  font-size: 18px;
+  color: #283618ff;
+}
+
+/* Testimonials Section */
+.testimonials {
+  text-align: center;
+  padding: 50px;
+  background-color: #dda15eff;
+  color: #283618ff;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contact CTA Section */
+.contact-cta {
+  text-align: center;
+  padding: 50px;
+  background-color: #606c38ff;
+  color: #fefae0ff;
+}
+
+.contact-cta h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }

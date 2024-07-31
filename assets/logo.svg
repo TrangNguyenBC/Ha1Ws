@@ -3,8 +3,13 @@
   <rect width="100%" height="100%" fill="#FEFAE0" rx="15" ry="15"/>
   
   <!-- Logo text -->
-  <text x="20" y="70" font-family="Arial, sans-serif" font-size="48" font-weight="bold">
-    <tspan fill="#BC6C25">&lt; &gt;</tspan>
-    <tspan fill="#606C38">HAONE</tspan>
+  <text font-family="'Bebas Neue', sans-serif" font-size="60" fill="#606C38">
+    <tspan x="30" y="70">H</tspan>
+    <tspan x="80" y="70">A</tspan>
+    <tspan x="180" y="70">N</tspan>
+    <tspan x="230" y="70">E</tspan>
   </text>
+  
+  <!-- Unfilled square shape -->
+  <rect x="125" y="25" width="50" height="50" fill="none" stroke="#BC6C25" stroke-width="4"/>
 </svg>
