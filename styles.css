@@ -1,0 +1,743 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #ff9900;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ff9900;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Characteristics Section */
+  .characteristics {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .characteristic {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .characteristic img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .characteristic h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff9900;
+  }
+  
+  .characteristic p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  
+    .hero h1 {
+      font-size: 36px;
+    }
+  
+    .hero p {
+      font-size: 20px;
+    }
+  
+    .characteristics {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .characteristic {
+      margin-bottom: 40px;
+    }
+  }
+  
+  /* ... previous code ... */
+  
+  /* Engineers Section */
+  .engineers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .engineer-info {
+    max-width: 60%;
+  }
+  
+  .engineer-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .engineer-info p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .engineer-stats {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30%;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 48px;
+    color: #ff9900;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .service {
+    text-align: center;
+  }
+  
+  .service img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .view-services {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-services:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Why Us Section */
+  .why-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .why-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .why-us-item {
+    text-align: center;
+  }
+  
+  .why-us-item img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .why-us-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .why-us-item p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* SME to Corporate Section */
+  .sme-corporate {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .sme-corporate h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sme-corporate p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stats .stat {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .stats .stat h3 {
+    font-size: 48px;
+    color: #ff9900;
+    margin-bottom: 10px;
+  }
+  
+  .stats .stat p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    max-width: 40%;
+  }
+  
+  .footer-content img {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+  }
+  
+  .footer-column {
+    max-width: 30%;
+  }
+  
+  .footer-column h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    /* ... previous code ... */
+  
+    .engineers {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .engineer-info {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .engineer-stats {
+      max-width: 100%;
+    }
+  
+    .service-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .why-us-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .stats .stat {
+      margin-bottom: 40px;
+    }
+  
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-content {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    .footer-links {
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+  /* ... previous code ... */
+
+/* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #283618ff;
+    background-color: #fefae0ff;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #606c38ff;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fefae0ff;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #dda15eff;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #bc6c25ff;
+    color: #fefae0ff;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #dda15eff;
+    color: #283618ff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #bc6c25ff;
+  }
+  
+  /* Characteristics Section */
+  .characteristics {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fefae0ff;
+  }
+  
+  .characteristic {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .characteristic img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .characteristic h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #606c38ff;
+  }
+  
+  .characteristic p {
+    font-size: 18px;
+    color: #283618ff;
+  }
+  
+  /* Engineers Section */
+  .engineers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #dda15eff;
+    color: #283618ff;
+  }
+  
+  .engineer-info {
+    max-width: 60%;
+  }
+  
+  .engineer-info h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .engineer-info p {
+    font-size: 18px;
+  }
+  
+  .engineer-stats {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30%;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 48px;
+    color: #606c38ff;
+    margin-bottom: 10px;
+  }
+  
+  .stat p {
+    font-size: 18px;
+  }
+  
+  /* Services Section */
+  .services {
+    text-align: center;
+    padding: 50px;
+    background-color: #fefae0ff;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #283618ff;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .service {
+    text-align: center;
+  }
+  
+  .service img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    color: #606c38ff;
+  }
+  
+  .view-services {
+    display: inline-block;
+    background-color: #bc6c25ff;
+    color: #fefae0ff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-services:hover {
+    background-color: #dda15eff;
+  }
+  
+  /* Why Us Section */
+  .why-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #606c38ff;
+    color: #fefae0ff;
+  }
+  
+  .why-us h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .why-us-item {
+    text-align: center;
+  }
+  
+  .why-us-item img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .why-us-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .why-us-item p {
+    font-size: 18px;
+  }
+  
+  /* SME to Corporate Section */
+  .sme-corporate {
+    text-align: center;
+    padding: 50px;
+    background-color: #dda15eff;
+    color: #283618ff;
+  }
+  
+  .sme-corporate h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .sme-corporate p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stats .stat {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .stats .stat h3 {
+    font-size: 48px;
+    color: #606c38ff;
+    margin-bottom: 10px;
+  }
+  
+  .stats .stat p {
+    font-size: 18px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #283618ff;
+    color: #fefae0ff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    max-width: 40%;
+  }
+  
+  .footer-content img {
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+  }
+  
+  .footer-column {
+    max-width: 30%;
+  }
+  
+  .footer-column h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #fefae0ff;
+    text-decoration: none;
+  }
+  
+  .footer-column p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
