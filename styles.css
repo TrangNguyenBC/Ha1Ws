@@ -3,13 +3,13 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
-  color: #283618ff;
-  background-color: #fefae0ff;
+  color: #6B9080;
+  background-color: #F6FFF8;
 }
 
 /* Header and Navigation */
 header {
-  background-color: #606c38ff;
+  background-color: #A4C3B2;
   padding: 20px;
 }
 
@@ -34,20 +34,20 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color: #fefae0ff;
+  color: #F6FFF8;
   transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  color: #dda15eff;
+  color: #6B9080;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #BC6C25;
-  color: #fefae0ff;
+  background-color: #6B9080;
+  color: #F6FFF8;
 }
 
 .hero h1 {
@@ -62,8 +62,8 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background-color: #bc6c25ff;
-  color: #283618ff;
+  background-color: #A4C3B2;
+  color: #6B9080;
   padding: 15px 30px;
   text-decoration: none;
   border-radius: 5px;
@@ -71,7 +71,7 @@ nav {
 }
 
 .cta-button:hover {
-  background-color: #dda15eff;
+  background-color: #CCE3DE;
 }
 
 /* Characteristics Section */
@@ -79,7 +79,7 @@ nav {
   display: flex;
   justify-content: space-around;
   padding: 50px 0;
-  background-color: #fefae0ff;
+  background-color: #F6FFF8;
 }
 
 .characteristic {
@@ -95,12 +95,12 @@ nav {
 .characteristic h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #606c38ff;
+  color: #6B9080;
 }
 
 .characteristic p {
   font-size: 18px;
-  color: #283618ff;
+  color: #A4C3B2;
 }
 
 /* Engineers Section */
@@ -109,8 +109,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 50px;
-  background-color: #dda15eff;
-  color: #283618ff;
+  background-color: #CCE3DE;
+  color: #6B9080;
 }
 
 .engineer-info {
@@ -138,7 +138,7 @@ nav {
 
 .stat h3 {
   font-size: 48px;
-  color: #606c38ff;
+  color: #6B9080;
   margin-bottom: 10px;
 }
 
@@ -150,13 +150,13 @@ nav {
 .services {
   text-align: center;
   padding: 50px;
-  background-color: #fefae0ff;
+  background-color: #F6FFF8;
 }
 
 .services h2 {
   font-size: 36px;
   margin-bottom: 40px;
-  color: #283618ff;
+  color: #6B9080;
 }
 
 .service-grid {
@@ -177,13 +177,13 @@ nav {
 
 .service h3 {
   font-size: 24px;
-  color: #606c38ff;
+  color: #6B9080;
 }
 
 .view-services {
   display: inline-block;
-  background-color: #bc6c25ff;
-  color: #fefae0ff;
+  background-color: #A4C3B2;
+  color: #F6FFF8;
   padding: 15px 30px;
   text-decoration: none;
   border-radius: 5px;
@@ -191,15 +191,15 @@ nav {
 }
 
 .view-services:hover {
-  background-color: #dda15eff;
+  background-color: #CCE3DE;
 }
 
 /* Why Us Section */
 .why-us {
   text-align: center;
   padding: 50px;
-  background-color: #606c38ff;
-  color: #fefae0ff;
+  background-color: #A4C3B2;
+  color: #F6FFF8;
 }
 
 .why-us h2 {
@@ -235,8 +235,8 @@ nav {
 .sme-corporate {
   text-align: center;
   padding: 50px;
-  background-color: #dda15eff;
-  color: #283618ff;
+  background-color: #CCE3DE;
+  color: #6B9080;
 }
 
 .sme-corporate h2 {
@@ -261,7 +261,7 @@ nav {
 
 .stats .stat h3 {
   font-size: 48px;
-  color: #606c38ff;
+  color: #6B9080;
   margin-bottom: 10px;
 }
 
@@ -271,8 +271,8 @@ nav {
 
 /* Footer */
 footer {
-  background-color: #283618ff;
-  color: #fefae0ff;
+  background-color: #6B9080;
+  color: #F6FFF8;
   padding: 50px;
   display: flex;
   justify-content: space-between;
@@ -317,7 +317,7 @@ footer {
 }
 
 .footer-column ul li a {
-  color: #fefae0ff;
+  color: #F6FFF8;
   text-decoration: none;
 }
 
@@ -406,8 +406,8 @@ footer {
 .about-hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #bc6c25ff;
-  color: #fefae0ff;
+  background-color: #6B9080;
+  color: #F6FFF8;
 }
 
 .about-hero h1 {
@@ -425,15 +425,15 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 50px 0;
-  background-color: #fefae0ff;
+  background-color: #F6FFF8;
 }
 
 /* About Best Section */
 .about-best {
   text-align: center;
   padding: 50px;
-  background-color: #606c38ff;
-  color: #fefae0ff;
+  background-color: #A4C3B2;
+  color: #F6FFF8;
 }
 
 .about-best h2 {
@@ -469,13 +469,13 @@ footer {
 .about-team {
   text-align: center;
   padding: 50px;
-  background-color: #fefae0ff;
+  background-color: #F6FFF8;
 }
 
 .about-team h2 {
   font-size: 36px;
   margin-bottom: 40px;
-  color: #283618ff;
+  color: #6B9080;
 }
 
 .team-members {
@@ -497,21 +497,21 @@ footer {
 
 .team-member h3 {
   font-size: 24px;
-  color: #606c38ff;
+  color: #6B9080;
   margin-bottom: 10px;
 }
 
 .team-member p {
   font-size: 18px;
-  color: #283618ff;
+  color: #A4C3B2;
 }
 
 /* About Solutions Section */
 .about-solutions {
   text-align: center;
   padding: 50px;
-  background-color: #dda15eff;
-  color: #283618ff;
+  background-color: #CCE3DE;
+  color: #6B9080;
 }
 
 .about-solutions h2 {
@@ -532,7 +532,7 @@ footer {
 }
 
 .solution-links a {
-  color: #283618ff;
+  color: #6B9080;
   text-decoration: none;
   margin-bottom: 10px;
 }
@@ -556,8 +556,8 @@ footer {
 .contact-cta {
   text-align: center;
   padding: 50px;
-  background-color: #606c38ff;
-  color: #fefae0ff;
+  background-color: #A4C3B2;
+  color: #F6FFF8;
 }
 
 .contact-cta h2 {
@@ -569,8 +569,8 @@ footer {
 .work-hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #bc6c25ff;
-  color: #fefae0ff;
+  background-color: #6B9080;
+  color: #F6FFF8;
 }
 
 .work-hero h1 {
@@ -588,7 +588,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding: 50px;
-  background-color: #fefae0ff;
+  background-color: #F6FFF8;
 }
 
 .work-item {
@@ -603,21 +603,21 @@ footer {
 
 .work-item h3 {
   font-size: 24px;
-  color: #606c38ff;
+  color: #6B9080;
   margin-bottom: 10px;
 }
 
 .work-item p {
   font-size: 18px;
-  color: #283618ff;
+  color: #A4C3B2;
 }
 
 /* Testimonials Section */
 .testimonials {
   text-align: center;
   padding: 50px;
-  background-color: #dda15eff;
-  color: #283618ff;
+  background-color: #CCE3DE;
+  color: #6B9080;
 }
 
 .testimonials h2 {
@@ -638,8 +638,8 @@ footer {
 .contact-cta {
   text-align: center;
   padding: 50px;
-  background-color: #606c38ff;
-  color: #fefae0ff;
+  background-color: #A4C3B2;
+  color: #F6FFF8;
 }
 
 .contact-cta h2 {
@@ -651,8 +651,8 @@ footer {
 .blog-hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #bc6c25ff;
-  color: #fefae0ff;
+  background-color: #6B9080;
+  color: #F6FFF8;
 }
 
 .blog-hero h1 {
@@ -668,8 +668,8 @@ footer {
 .contact-hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #bc6c25ff;
-  color: #fefae0ff;
+  background-color: #6B9080;
+  color: #F6FFF8;
 }
 
 .contact-hero h1 {
@@ -681,7 +681,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  background-color: #fefae0ff;
+  background-color: #F6FFF8; /* Lightest shade from the palette */
 }
 
 .contact-item {
@@ -696,23 +696,47 @@ footer {
 
 .contact-item h3 {
   font-size: 24px;
-  color: #606c38ff;
+  color: #6B9080; /* Darkest shade from the palette */
   margin-bottom: 10px;
 }
 
 .contact-item p {
   font-size: 18px;
-  color: #283618ff;
+  color: #A4C3B2; /* Medium shade from the palette */
 }
 
 /* Contact Map Section */
 .contact-map {
   padding: 50px 0;
-  background-color: #fefae0ff;
+  background-color: #EAF4F4; /* Second lightest shade from the palette */
 }
 
 .contact-map iframe {
   width: 100%;
   height: 450px;
   border: none;
+}
+
+/* Additional styles to incorporate all colors from the palette */
+.contact-info::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(to right, #6B9080, #A4C3B2, #CCE3DE, #EAF4F4, #F6FFF8);
+}
+
+.contact-item:hover h3 {
+  color: #CCE3DE; /* Middle shade from the palette */
+  transition: color 0.3s ease;
+}
+
+.contact-map::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #A4C3B2; /* Medium shade from the palette */
+  margin-top: 20px;
 }

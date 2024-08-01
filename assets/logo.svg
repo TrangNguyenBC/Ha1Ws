@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100">
-  <!-- Light beige background (#FEFAE0) with rounded corners -->
-  <rect width="100%" height="100%" fill="#FEFAE0" rx="15" ry="15"/>
+  <!-- Light background (#F6FFF8) with rounded corners -->
+  <rect width="100%" height="100%" fill="#F6FFF8" rx="15" ry="15"/>
   
   <!-- Logo text -->
-  <text font-family="'Bebas Neue', sans-serif" font-size="60" fill="#606C38">
+  <text font-family="'Bebas Neue', sans-serif" font-size="60" fill="#6B9080">
     <tspan x="30" y="70">H</tspan>
     <tspan x="80" y="70">A</tspan>
     <tspan x="180" y="70">N</tspan>
@@ -11,5 +11,5 @@
   </text>
   
   <!-- Unfilled square shape -->
-  <rect x="125" y="25" width="50" height="50" fill="none" stroke="#BC6C25" stroke-width="4"/>
+  <rect x="130" y="25" width="50" height="50" fill="none" stroke="#A4C3B2" stroke-width="4"/>
 </svg>
