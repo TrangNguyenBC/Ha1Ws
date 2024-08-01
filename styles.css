@@ -48,15 +48,16 @@ nav {
   padding: 100px 0;
   background-color: #6B9080;
   color: #F6FFF8;
+  border-radius: 10px;
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 

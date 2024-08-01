@@ -6,10 +6,13 @@
   <text font-family="'Bebas Neue', sans-serif" font-size="60" fill="#6B9080">
     <tspan x="30" y="70">H</tspan>
     <tspan x="80" y="70">A</tspan>
-    <tspan x="180" y="70">N</tspan>
-    <tspan x="230" y="70">E</tspan>
+    <tspan x="190" y="70">N</tspan>
+    <tspan x="240" y="70">E</tspan>
   </text>
   
-  <!-- Unfilled square shape -->
+  <!-- Outer square shape -->
   <rect x="130" y="25" width="50" height="50" fill="none" stroke="#A4C3B2" stroke-width="4"/>
+  
+  <!-- Inner square shape -->
+  <rect x="140" y="35" width="30" height="30" fill="none" stroke="#A4C3B2" stroke-width="2"/>
 </svg>
