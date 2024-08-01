@@ -175,43 +175,6 @@ nav {
   background-color: #CCE3DE;
 }
 
-/* Why Us Section */
-.why-us {
-  text-align: center;
-  padding: 50px;
-  background-color: #A4C3B2;
-  color: #F6FFF8;
-}
-
-.why-us h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.why-us-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.why-us-item {
-  text-align: center;
-}
-
-.why-us-item img {
-  height: 80px;
-  margin-bottom: 20px;
-}
-
-.why-us-item h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.why-us-item p {
-  font-size: 18px;
-}
-
 /* Footer */
 footer {
   background-color: #6B9080;
