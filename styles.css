@@ -374,6 +374,25 @@ footer {
   padding: 100px 0;
   background-color: #6B9080;
   color: #F6FFF8;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(164, 195, 178, 0.7) 0%, rgba(164, 195, 178, 0) 70%);
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.about-hero .container {
+  position: relative;
+  z-index: 2;
 }
 
 .about-hero h1 {
@@ -383,152 +402,52 @@ footer {
 
 .about-hero p {
   font-size: 24px;
-  margin-bottom: 20px;
 }
 
-/* About Stats Section */
-.about-stats {
-  display: flex;
-  justify-content: space-around;
-  padding: 50px 0;
+/* About Content Section */
+.about-content {
+  padding: 80px 0;
   background-color: #F6FFF8;
-}
-
-/* About Best Section */
-.about-best {
-  text-align: center;
-  padding: 50px;
-  background-color: #A4C3B2;
-  color: #F6FFF8;
-}
-
-.about-best h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
-}
-
-.about-best-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.about-best-item {
-  text-align: center;
-}
-
-.about-best-item img {
-  height: 80px;
-  margin-bottom: 20px;
-}
-
-.about-best-item h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.about-best-item p {
-  font-size: 18px;
-}
-
-/* About Team Section */
-.about-team {
-  text-align: center;
-  padding: 50px;
-  background-color: #F6FFF8;
-}
-
-.about-team h2 {
-  font-size: 36px;
-  margin-bottom: 40px;
   color: #6B9080;
 }
 
-.team-members {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.team-member {
-  text-align: center;
-}
-
-.team-member img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+.about-content h2 {
+  font-size: 36px;
   margin-bottom: 20px;
-}
-
-.team-member h3 {
-  font-size: 24px;
-  color: #6B9080;
-  margin-bottom: 10px;
-}
-
-.team-member p {
-  font-size: 18px;
   color: #A4C3B2;
 }
 
-/* About Solutions Section */
-.about-solutions {
-  text-align: center;
-  padding: 50px;
-  background-color: #CCE3DE;
-  color: #6B9080;
-}
-
-.about-solutions h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.about-solutions p {
-  font-size: 18px;
+.about-content p {
+  font-size: 20px;
+  line-height: 1.6;
   margin-bottom: 40px;
 }
 
-.solution-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 40px;
+.about-content ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.solution-links a {
-  color: #6B9080;
-  text-decoration: none;
+.about-content li {
+  font-size: 20px;
+  line-height: 1.6;
   margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
 }
 
-.trusted-partners h3 {
-  font-size: 24px;
-  margin-bottom: 20px;
+.about-content li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #A4C3B2;
+  font-weight: bold;
 }
 
-.partner-logos {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-.partner-logos img {
-  height: 50px;
-}
-
-/* Contact CTA Section */
-.contact-cta {
-  text-align: center;
-  padding: 50px;
-  background-color: #A4C3B2;
-  color: #F6FFF8;
-}
-
-.contact-cta h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Work Hero Section */
@@ -634,7 +553,7 @@ footer {
 .contact-hero {
   text-align: center;
   padding: 100px 0;
-  background-color: #6B9080;
+  background-color: #CCE3DE;
   color: #F6FFF8;
 }
 
