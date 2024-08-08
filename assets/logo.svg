@@ -3,7 +3,7 @@
   <rect width="100%" height="100%" fill="#F6FFF8" rx="15" ry="15"/>
   
   <!-- Logo text -->
-  <text font-family="'Bebas Neue', sans-serif" font-size="60" fill="#6B9080">
+  <text font-family="'Courier New', monospace;" font-size="60" fill="#6B9080">
     <tspan x="30" y="70">H</tspan>
     <tspan x="80" y="70">A</tspan>
     <tspan x="190" y="70">N</tspan>
